@@ -15,7 +15,6 @@ TEXT_CLEANUP = str.maketrans({
 })
 
 
-
 if 'tesseract' not in os.getenv('PATH', ''):
     with open(os.path.join(os.path.dirname(__file__), 'TESSERACT_PATH')) as f:
         tesseract_path = f.read().strip()
