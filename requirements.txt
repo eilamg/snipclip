@@ -1,0 +1,5 @@
+packaging==23.0
+Pillow==9.4.0
+pyclip==0.7.0
+pytesseract==0.3.10
+pywin32==305
